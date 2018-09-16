@@ -37,13 +37,27 @@ a:hover {
   color: #ff5722 !important;
 }
 .h3-responsive{
-  font-family: "Open Sans", Arial, sans-serif;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 150px;
   font-style: bold;
   font-weight: 700;
+}  
+#word {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+
+}
+
   
 
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+li {
+  font-family: 'Oswald',Open Sans, Helvetica, sans-serif;
+  color:#3e3e3e;
+  font-style: bold;
 }
 
 #contribute {
@@ -51,18 +65,30 @@ a:hover {
   font-size:20px;
 }
 
+.about {
+  background-color: #eeeeeeee;
+}
 p{
   margin-bottom: 1.5em;
   font-size: 16px;
   color: #848484;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Open Sans", Arial, sans-serif;
+  /* font-family: "Open Sans", Arial, sans-serif; */
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+}
+
+#activities2{
+  height:50px;
+}
+
+.orange{
+  color:#ff5722;
 }
 
 figure {
@@ -565,6 +591,8 @@ figure {
   background: rgba(0, 0, 0, 0.04);
 }
 
+
+
 .heading-section {
   padding-bottom: 1em;
   margin-bottom: 5em;
@@ -690,7 +718,8 @@ figure {
 }
 .feature-left .feature-copy h3 {
   font-size: 18px;
-  color: #1a1a1a;
+  /* color: #1a1a1a; */
+  color:#ff5722;
   margin-bottom: 10px;
 }
 .feature-left .feature-copy p {
