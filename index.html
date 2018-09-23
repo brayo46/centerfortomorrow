@@ -8,10 +8,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Center for tomorrow</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+	
+
 
   
 
@@ -65,32 +67,17 @@
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
 					<h1 id="fh5co-logo"><a href="index.html">CENTER FOR TOMORROW</a></h1>
 					<!-- START #fh5co-menu-wrap -->
-					<nav id="fh5co-menu-wrap" role="navigation">
-						<ul class="sf-menu" id="fh5co-primary-menu">
+					<nav id="fh5co-menu-wrap" id="mainNav" role="navigation" class="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu" id="mainNav">
 							<li class="active">
-								<a href="index.html">HOME</a>
+								<a href="#home">HOME</a>
 							</li>
-							<li class="nav-item"><a href="#">ABOUT</a></li>
+							<li class="nav-item"><a href="#about">ABOUT</a></li>
 							
-							<li class="nav-item">
-								<a href="#activities" class="nav-link js-scroll-trigger"  class="fh5co-sub-ddown">OUR WORK</a>
-								 <ul class="fh5co-sub-menu">
-								 	<li><a href="#">BOOK CLUBS</a></li>
-								 	<li><a href="#">CAREER GUIDANCE</a></li>
-									 <li><a href="#">SKILLS DEVELOPMENT</a></li>
-									 <li><a href="#">SPONSORSHIP</a></li>
-									 
-								</ul>
-							</li>
-							<li class="nav-item">
-								<a href="#contribute" class= "nav-link js-scroll-trigger"  class="fh5co-sub-ddown">GET INVOLVED</a>
-								<ul class="fh5co-sub-menu">
-									<li><a href="#">DONATE</a></li>
-									<li><a href="#">VOLUNTEER</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a href="#">STORIES</a></li>
-							<li class="nav-item"><a href="#">CONTACT</a></li>
+							<li class="nav-item"><a href="#work">OUR WORK</a></li>
+							<li class="nav-item"><a href="#getInvolved">GET INVOLVED</a></li>
+							<li class="nav-item"><a href="#stories">STORIES</a></li>
+							<li class="nav-item"><a href="#contact">CONTACT</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -98,7 +85,7 @@
 		</header>
 		
 		
-		<div id="myCarousel" class="carousel-fade" data-ride="carousel" data-interval="3000">
+		<div id="myCarousel" class="carousel-fade" class="page-section" data-ride="carousel" data-interval="3000" id="home">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -146,14 +133,15 @@
 		
 		<div id="activities2">
 		</div>
-		<div class="about">
+		<div class="about" class="page-section" id="about">
 		</br>
 		<p id="contribute" align="center">ABOUT THE ORGANISATION</p>
-	</br>
-</br>
+	    </br>
+        </br>
 
 			<div class="container">
 				<div class="row">
+                    
 					<div class="col-md-3">
 						<p id="contribute" class="orange">AIM</p>
 						<p id="word">To improve lives of families.</p>
@@ -185,8 +173,8 @@
 			</div>
 
 		</div>
-
-		<div id="fh5co-services-section" id="activities">
+        <br>
+		<div class="page-section" id="work">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -205,67 +193,6 @@
 							</div>
 						</div>
 
-						<div class="col-md-8 col-md-8">
-								<div class="services animate-box">
-									
-									<p><img width="700" height="500" src= "images/org/book_club.jpg.JPG"></p>
-								</div>
-						</div>
-
-						<!-- <div class="col-md-4 col-sm-4">
-							<div class="services animate-box">
-								<span><i class="icon-heart"></i></span>
-								<h3>CAREER GUIDANCE</h3>
-								<p id="word">We give pupils and students an opportunity to dream about what they want to be when they grow up. We work with them and guide them on what they need to do to achieve that dream job and career.</p>
-							</div>
-						</div> -->
-						<!-- <div class="col-md-4 col-sm-4">
-							<div class="services animate-box">
-								<span><i class="icon-heart"></i></span>
-								<h3>SKILLS DEVELOPMENT</h3>
-								<p id="word">We train girls, women and youth in different skill set that can enable them to have a competitive advantage so that they are able to plan, work and improve their livelihood.</p>
-							</div>
-						</div> -->
-					
-						
-						
-					</div>
-					<div class="row">
-							<div class="col-md-4 col-sm-4">
-									<div class="services animate-box">
-										<span><i class="icon-heart"></i></span>
-										<h3>CHILD SPONSORSHIP</h3>
-										<p id="word">In collaboration with the headteacher of schools and the community leaders, CFT identifies the most needy children in the communities and seeks out sponsors for these children to access good education.</p>
-									</div>
-							</div>
-
-							<div class="col-md-8 col-md-8">
-									<div class="services animate-box">
-										
-										<p><img width="520" height="490" src= "images/org/kids.JPG"></p>
-									</div>
-							</div>
-
-					</div>
-
-					<div class="row">
-							<div class="col-md-4 col-sm-4">
-								<div class="services animate-box">
-									<span><i class="icon-heart"></i></span>
-									<h3>SKILLS DEVELOPMENT</h3>
-									<p id="word">We train girls, women and youth in different skill set that can enable them to have a competitive advantage so that they are able to plan, work and improve their livelihood.</p>
-								</div>
-							</div>
-
-							<div class="col-md-8 col-md-8">
-									<div class="services animate-box">
-										
-										<p><img width="500" height="520" src= "images/org/women.JPG"></p>
-									</div>
-							</div>
-
-					</div>
-					<div class ="row">
 						<div class="col-md-4 col-sm-4">
 							<div class="services animate-box">
 								<span><i class="icon-heart"></i></span>
@@ -273,14 +200,38 @@
 								<p id="word">We give pupils and students an opportunity to dream about what they want to be when they grow up. We work with them and guide them on what they need to do to achieve that dream job and career.</p>
 							</div>
 						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="services animate-box">
+								<span><i class="icon-heart"></i></span>
+								<h3>SKILLS DEVELOPMENT</h3>
+								<p id="word">We train girls, women and youth in different skill set that can enable them to have a competitive advantage so that they are able to plan, work and improve their livelihood.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class ="row">
+                            <div class="col-md-4 col-sm-4">
+									<div class="services animate-box">
+										<span><i class="icon-heart"></i></span>
+										<h3>CHILD SPONSORSHIP</h3>
+										<p id="word">In collaboration with the headteacher of schools and the community leaders, CFT identifies the most needy children in the communities and seeks out sponsors for these children to access good education.</p>
+									</div>
+							</div>
 					</div>
 				</div>
-			</div>
+            </div>
+        </div>
 	  
-		<!-- end:header-top -->
-		<div id="fh5co-features" id="contribute" class="about">
+        <!-- end:header-top -->
+       
+		<div class="about" class="page-section" id="getInvolved">
 			<div class="container">
 				<div class="row">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    </div>
 					<p id ="contribute" align="center">GET INVOLVED</p>
 					<br>
 					<div class="col-md-6">
@@ -324,7 +275,7 @@
 		<!-- END What we do -->
 
 
-		<div id="fh5co-blog-section">
+		<div class="page-section" id="stories">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -389,7 +340,7 @@
 
 			</div>
 		</div>
-		<div class="about">
+		<div class="about" class="page-section" id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="material">
@@ -466,7 +417,8 @@
 	<script src="js/superfish.js"></script>
 	
 	<!-- Main JS -->
-	<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
 
 	</body>
 </html>

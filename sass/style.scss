@@ -140,6 +140,27 @@ p, ul, ol {
 	// font-weight: 300;
 	font-family: $font-primary;
 }
+.navigation {
+
+	&.active {
+		background-color: rgba(0,0,0,0.1);
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	// .material {
+	// 	width:300px;
+	// }
+	// .white {
+	// 	margin-left:0px;
+
+	// }
+	display: none;
+
+} 
+    
+
 
 h1, h2, h3, h4, h5, h6 {
 	color: $brand-darker;
