@@ -25,7 +25,38 @@ body {
 body.fh5co-offcanvas {
   overflow: hidden;
 }
+.navbar {
+  background: #fff;
+}
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  /* margin-bottom: 150px; */
+  font-style: bold;
+  font-weight: 700;
+  color: #ff5722;
+  
 
+}
+#mybrand {
+  color: #ff5722;
+}
+nav {
+  position: fixed;
+  /* border:0;
+  box-shadow: none;
+  box-sizing: none;
+  border-style: none;
+  border-width: 0; */
+}
+
+header {
+  border: 0;
+  /* box-shadow: none;
+  box-sizing: none;
+  border-style: none;
+  border-width: 0; */
+  
+}
 a {
   color: #ff5722;
   -webkit-transition: 0.5s, ease;
@@ -433,12 +464,14 @@ figure {
 
 #fh5co-logo {
   position: relative;
-  z-index: 2;
+  z-index: 2; 
   font-size: 22px;
   /* text-transform: uppercase; */
   margin-top: 35px;
   font-weight: 700;
-  float: left;
+  /* float: left; */
+  align-content: left;
+  color: #ff5722;
 }
 #fh5co-logo span {
   font-weight: 700;
@@ -446,7 +479,8 @@ figure {
 @media screen and (max-width: 768px) {
   #fh5co-logo {
     width: 100%;
-    float: none;
+    /* float: none; */
+    float:left;
     text-align: center;
   }
 }

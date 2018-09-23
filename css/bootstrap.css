@@ -4649,7 +4649,7 @@ tbody.collapse.in {
   position: relative;
   min-height: 55px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
 }
 .navbar:before, .navbar:after {
   content: " ";
@@ -4785,6 +4785,7 @@ tbody.collapse.in {
   font-size: 18px;
   line-height: 20px;
   height: 55px;
+  color: #ff5722;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4807,8 +4808,8 @@ tbody.collapse.in {
   margin-bottom: 10.5px;
   background-color: transparent;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  /* border: 1px solid transparent;
+  border-radius: 4px; */
 }
 .navbar-toggle:focus {
   outline: 0;
